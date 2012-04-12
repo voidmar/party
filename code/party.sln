@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "party", "party\party.csproj", "{D49A2F75-7E85-4DCB-8D8D-8DAC22934F89}"
+	ProjectSection(ProjectDependencies) = postProject
+		{00152FA4-9FA5-4F27-8DA1-4668396525D0} = {00152FA4-9FA5-4F27-8DA1-4668396525D0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "party_native", "party_native\party_native.vcxproj", "{00152FA4-9FA5-4F27-8DA1-4668396525D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spark", "spark\spark.vcxproj", "{31C0E2D2-0096-4329-A4A6-5AD3BEF9A8A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D49A2F75-7E85-4DCB-8D8D-8DAC22934F89}.Debug|Win32.ActiveCfg = Debug|x86
+		{D49A2F75-7E85-4DCB-8D8D-8DAC22934F89}.Debug|Win32.Build.0 = Debug|x86
+		{D49A2F75-7E85-4DCB-8D8D-8DAC22934F89}.Release|Win32.ActiveCfg = Release|x86
+		{D49A2F75-7E85-4DCB-8D8D-8DAC22934F89}.Release|Win32.Build.0 = Release|x86
+		{00152FA4-9FA5-4F27-8DA1-4668396525D0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{00152FA4-9FA5-4F27-8DA1-4668396525D0}.Debug|Win32.Build.0 = Debug|Win32
+		{00152FA4-9FA5-4F27-8DA1-4668396525D0}.Release|Win32.ActiveCfg = Release|Win32
+		{00152FA4-9FA5-4F27-8DA1-4668396525D0}.Release|Win32.Build.0 = Release|Win32
+		{31C0E2D2-0096-4329-A4A6-5AD3BEF9A8A9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{31C0E2D2-0096-4329-A4A6-5AD3BEF9A8A9}.Debug|Win32.Build.0 = Debug|Win32
+		{31C0E2D2-0096-4329-A4A6-5AD3BEF9A8A9}.Release|Win32.ActiveCfg = Release|Win32
+		{31C0E2D2-0096-4329-A4A6-5AD3BEF9A8A9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

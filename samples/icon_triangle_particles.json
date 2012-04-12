@@ -1,0 +1,768 @@
+[
+  {
+    "blending_mode": 1,
+    "emitter": {
+      "tank": -1,
+      "force": [-0.2, 0.2],
+      "zone": {
+        "position": [0, 0, 0],
+        "type": 6,
+        "radius": 0.5
+      },
+      "zone_group": {
+        "current": 6,
+        "zones": [
+          {
+            "position": [0, 0, 0],
+            "type": 0,
+            "extents": [0, 0, 0]
+          },
+          {
+            "position": [0, 0, 0],
+            "direction": [0, 1, 0],
+            "type": 1,
+            "length": 1,
+            "radius": 1
+          },
+          null,
+          {
+            "position": [0, 0, 0],
+            "direction": [0, 1, 0],
+            "type": 3
+          },
+          {
+            "position": [0, 0, 0],
+            "type": 4
+          },
+          {
+            "position": [0, 0, 0],
+            "outer_radius": 1,
+            "direction": [0, 1, 0],
+            "type": 5,
+            "inner_radius": 0
+          },
+          {
+            "position": [0, 0, 0],
+            "type": 6,
+            "radius": 0.5
+          }
+        ]
+      },
+      "type": 1,
+      "flow": 6,
+      "use_full_zone": true
+    },
+    "lifetime": [3, 4],
+    "name": "Dots",
+    "parameters": [
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [0, 0]
+          }
+        ],
+        "parameter": "Red",
+        "interpolate_on": "Lifetime"
+      },
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [1.5, 1.5]
+          }
+        ],
+        "parameter": "Green",
+        "interpolate_on": "Lifetime"
+      },
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [0, 0]
+          }
+        ],
+        "parameter": "Blue",
+        "interpolate_on": "Lifetime"
+      },
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [0, 0]
+          },
+          {
+            "keyframe": 0.5,
+            "value": [0.75, 0.75]
+          },
+          {
+            "keyframe": 1,
+            "value": [0, 0]
+          }
+        ],
+        "parameter": "Alpha",
+        "interpolate_on": "Lifetime"
+      },
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [0.1, 0.1]
+          }
+        ],
+        "parameter": "Size",
+        "interpolate_on": "Lifetime"
+      }
+    ],
+    "emitter_group": {
+      "current": 1,
+      "emitters": [
+        {
+          "tank": -1,
+          "force": [0, 0],
+          "zone": {
+            "position": [0, 0, 0],
+            "type": 4
+          },
+          "zone_group": {
+            "current": 4,
+            "zones": [
+              {
+                "position": [0, 0, 0],
+                "type": 0,
+                "extents": [0, 0, 0]
+              },
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 1,
+                "length": 1,
+                "radius": 1
+              },
+              null,
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 3
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 4
+              },
+              {
+                "position": [0, 0, 0],
+                "outer_radius": 1,
+                "direction": [0, 1, 0],
+                "type": 5,
+                "inner_radius": 0
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 6,
+                "radius": 1
+              }
+            ]
+          },
+          "type": 0,
+          "flow": 0,
+          "use_full_zone": true
+        },
+        {
+          "tank": -1,
+          "force": [-0.2, 0.2],
+          "zone": {
+            "position": [0, 0, 0],
+            "type": 6,
+            "radius": 0.5
+          },
+          "zone_group": {
+            "current": 6,
+            "zones": [
+              {
+                "position": [0, 0, 0],
+                "type": 0,
+                "extents": [0, 0, 0]
+              },
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 1,
+                "length": 1,
+                "radius": 1
+              },
+              null,
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 3
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 4
+              },
+              {
+                "position": [0, 0, 0],
+                "outer_radius": 1,
+                "direction": [0, 1, 0],
+                "type": 5,
+                "inner_radius": 0
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 6,
+                "radius": 0.5
+              }
+            ]
+          },
+          "type": 1,
+          "flow": 6,
+          "use_full_zone": true
+        },
+        {
+          "tank": -1,
+          "force": [0, 0],
+          "zone": {
+            "position": [0, 0, 0],
+            "type": 4
+          },
+          "zone_group": {
+            "current": 4,
+            "zones": [
+              {
+                "position": [0, 0, 0],
+                "type": 0,
+                "extents": [0, 0, 0]
+              },
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 1,
+                "length": 1,
+                "radius": 1
+              },
+              null,
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 3
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 4
+              },
+              {
+                "position": [0, 0, 0],
+                "outer_radius": 1,
+                "direction": [0, 1, 0],
+                "type": 5,
+                "inner_radius": 0
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 6,
+                "radius": 1
+              }
+            ]
+          },
+          "direction": [0, 1, 0],
+          "type": 2,
+          "flow": 0,
+          "use_full_zone": true,
+          "angles": [0, 0]
+        },
+        {
+          "tank": -1,
+          "force": [0, 0],
+          "zone": {
+            "position": [0, 0, 0],
+            "type": 4
+          },
+          "zone_group": {
+            "current": 4,
+            "zones": [
+              {
+                "position": [0, 0, 0],
+                "type": 0,
+                "extents": [0, 0, 0]
+              },
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 1,
+                "length": 1,
+                "radius": 1
+              },
+              null,
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 3
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 4
+              },
+              {
+                "position": [0, 0, 0],
+                "outer_radius": 1,
+                "direction": [0, 1, 0],
+                "type": 5,
+                "inner_radius": 0
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 6,
+                "radius": 1
+              }
+            ]
+          },
+          "type": 3,
+          "flow": 0,
+          "use_full_zone": true
+        },
+        {
+          "tank": -1,
+          "force": [0, 0],
+          "zone": {
+            "position": [0, 0, 0],
+            "type": 4
+          },
+          "zone_group": {
+            "current": 4,
+            "zones": [
+              {
+                "position": [0, 0, 0],
+                "type": 0,
+                "extents": [0, 0, 0]
+              },
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 1,
+                "length": 1,
+                "radius": 1
+              },
+              null,
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 3
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 4
+              },
+              {
+                "position": [0, 0, 0],
+                "outer_radius": 1,
+                "direction": [0, 1, 0],
+                "type": 5,
+                "inner_radius": 0
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 6,
+                "radius": 1
+              }
+            ]
+          },
+          "direction": [0, 1, 0],
+          "type": 4,
+          "flow": 0,
+          "use_full_zone": true
+        }
+      ]
+    },
+    "texture_path": ".\\textures\\particles\\icon\\fx_whitedot.tga"
+  },
+  {
+    "blending_mode": 2,
+    "emitter": {
+      "tank": -1,
+      "force": [0, 0],
+      "zone": {
+        "position": [0, 0, 0],
+        "type": 6,
+        "radius": 0.1
+      },
+      "zone_group": {
+        "current": 6,
+        "zones": [
+          {
+            "position": [0, 0, 0],
+            "type": 0,
+            "extents": [0, 0, 0]
+          },
+          {
+            "position": [0, 0, 0],
+            "direction": [0, 1, 0],
+            "type": 1,
+            "length": 1,
+            "radius": 1
+          },
+          null,
+          {
+            "position": [0, 0, 0],
+            "direction": [0, 1, 0],
+            "type": 3
+          },
+          {
+            "position": [0, 0, 0],
+            "type": 4
+          },
+          {
+            "position": [0, 0, 0],
+            "outer_radius": 1,
+            "direction": [0, 1, 0],
+            "type": 5,
+            "inner_radius": 0
+          },
+          {
+            "position": [0, 0, 0],
+            "type": 6,
+            "radius": 0.1
+          }
+        ]
+      },
+      "type": 1,
+      "flow": 2,
+      "use_full_zone": true
+    },
+    "lifetime": [4, 4],
+    "name": "Smoke",
+    "parameters": [
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [0, 0]
+          }
+        ],
+        "parameter": "Red",
+        "interpolate_on": "Lifetime"
+      },
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [1.5, 1.5]
+          }
+        ],
+        "parameter": "Green",
+        "interpolate_on": "Lifetime"
+      },
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [0, 0]
+          }
+        ],
+        "parameter": "Blue",
+        "interpolate_on": "Lifetime"
+      },
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [0, 0]
+          },
+          {
+            "keyframe": 0.1,
+            "value": [0.4, 0.4]
+          },
+          {
+            "keyframe": 0.5,
+            "value": [0.6, 0.6]
+          },
+          {
+            "keyframe": 1,
+            "value": [0, 0]
+          }
+        ],
+        "parameter": "Alpha",
+        "interpolate_on": "Lifetime"
+      },
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [0.9, 0.9]
+          }
+        ],
+        "parameter": "Size",
+        "interpolate_on": "Lifetime"
+      },
+      {
+        "entries": [
+          {
+            "keyframe": 0,
+            "value": [0, 360]
+          }
+        ],
+        "parameter": "Angle",
+        "interpolate_on": "Lifetime"
+      }
+    ],
+    "emitter_group": {
+      "current": 1,
+      "emitters": [
+        {
+          "tank": -1,
+          "force": [0, 0],
+          "zone": {
+            "position": [0, 0, 0],
+            "type": 4
+          },
+          "zone_group": {
+            "current": 4,
+            "zones": [
+              {
+                "position": [0, 0, 0],
+                "type": 0,
+                "extents": [0, 0, 0]
+              },
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 1,
+                "length": 1,
+                "radius": 1
+              },
+              null,
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 3
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 4
+              },
+              {
+                "position": [0, 0, 0],
+                "outer_radius": 1,
+                "direction": [0, 1, 0],
+                "type": 5,
+                "inner_radius": 0
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 6,
+                "radius": 1
+              }
+            ]
+          },
+          "type": 0,
+          "flow": 0,
+          "use_full_zone": true
+        },
+        {
+          "tank": -1,
+          "force": [0, 0],
+          "zone": {
+            "position": [0, 0, 0],
+            "type": 6,
+            "radius": 0.1
+          },
+          "zone_group": {
+            "current": 6,
+            "zones": [
+              {
+                "position": [0, 0, 0],
+                "type": 0,
+                "extents": [0, 0, 0]
+              },
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 1,
+                "length": 1,
+                "radius": 1
+              },
+              null,
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 3
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 4
+              },
+              {
+                "position": [0, 0, 0],
+                "outer_radius": 1,
+                "direction": [0, 1, 0],
+                "type": 5,
+                "inner_radius": 0
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 6,
+                "radius": 0.1
+              }
+            ]
+          },
+          "type": 1,
+          "flow": 2,
+          "use_full_zone": true
+        },
+        {
+          "tank": -1,
+          "force": [0, 0],
+          "zone": {
+            "position": [0, 0, 0],
+            "type": 4
+          },
+          "zone_group": {
+            "current": 4,
+            "zones": [
+              {
+                "position": [0, 0, 0],
+                "type": 0,
+                "extents": [0, 0, 0]
+              },
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 1,
+                "length": 1,
+                "radius": 1
+              },
+              null,
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 3
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 4
+              },
+              {
+                "position": [0, 0, 0],
+                "outer_radius": 1,
+                "direction": [0, 1, 0],
+                "type": 5,
+                "inner_radius": 0
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 6,
+                "radius": 1
+              }
+            ]
+          },
+          "direction": [0, 1, 0],
+          "type": 2,
+          "flow": 0,
+          "use_full_zone": true,
+          "angles": [0, 0]
+        },
+        {
+          "tank": -1,
+          "force": [0, 0],
+          "zone": {
+            "position": [0, 0, 0],
+            "type": 4
+          },
+          "zone_group": {
+            "current": 4,
+            "zones": [
+              {
+                "position": [0, 0, 0],
+                "type": 0,
+                "extents": [0, 0, 0]
+              },
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 1,
+                "length": 1,
+                "radius": 1
+              },
+              null,
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 3
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 4
+              },
+              {
+                "position": [0, 0, 0],
+                "outer_radius": 1,
+                "direction": [0, 1, 0],
+                "type": 5,
+                "inner_radius": 0
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 6,
+                "radius": 1
+              }
+            ]
+          },
+          "type": 3,
+          "flow": 0,
+          "use_full_zone": true
+        },
+        {
+          "tank": -1,
+          "force": [0, 0],
+          "zone": {
+            "position": [0, 0, 0],
+            "type": 4
+          },
+          "zone_group": {
+            "current": 4,
+            "zones": [
+              {
+                "position": [0, 0, 0],
+                "type": 0,
+                "extents": [0, 0, 0]
+              },
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 1,
+                "length": 1,
+                "radius": 1
+              },
+              null,
+              {
+                "position": [0, 0, 0],
+                "direction": [0, 1, 0],
+                "type": 3
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 4
+              },
+              {
+                "position": [0, 0, 0],
+                "outer_radius": 1,
+                "direction": [0, 1, 0],
+                "type": 5,
+                "inner_radius": 0
+              },
+              {
+                "position": [0, 0, 0],
+                "type": 6,
+                "radius": 1
+              }
+            ]
+          },
+          "direction": [0, 1, 0],
+          "type": 4,
+          "flow": 0,
+          "use_full_zone": true
+        }
+      ]
+    },
+    "texture_path": ".\\textures\\particles\\icon\\fx_smoke.tga"
+  }
+]

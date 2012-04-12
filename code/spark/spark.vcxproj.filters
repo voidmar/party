@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4074ad3b-d613-45e7-9b84-e81ce07501ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zones">
+      <UniqueIdentifier>{061c8a6a-96f3-44f1-af64-fbe4f2075ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Include">
+      <UniqueIdentifier>{6d96cf0c-0301-40e5-8098-e6e872dec85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Emitters">
+      <UniqueIdentifier>{045b3494-ac7a-4532-b42a-1fbb5fa56b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modifiers">
+      <UniqueIdentifier>{958359bb-01e6-4f14-9702-e88c2c5ce344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderers">
+      <UniqueIdentifier>{6eb16417-62aa-4584-9883-c024eeda9553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Emitters\Include">
+      <UniqueIdentifier>{95c4b06b-b357-4233-b660-2085f9bcbf04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modifiers\Include">
+      <UniqueIdentifier>{cedfa792-f1e4-4c60-b157-e5363b70222b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderers\Include">
+      <UniqueIdentifier>{2257828a-c938-4518-8220-45906a508ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zones\Include">
+      <UniqueIdentifier>{c20c0a38-74b4-4369-a789-f41ecddeff94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\SPK_BufferHandler.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_DEF.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Emitter.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Factory.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Group.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Interpolator.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Model.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Modifier.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Particle.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Registerable.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Renderer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_System.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Transformable.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Vector3D.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\SPK_Zone.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Emitters\SPK_NormalEmitter.cpp">
+      <Filter>Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Emitters\SPK_RandomEmitter.cpp">
+      <Filter>Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Emitters\SPK_SphericEmitter.cpp">
+      <Filter>Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Emitters\SPK_StraightEmitter.cpp">
+      <Filter>Emitters</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Modifiers\SPK_Collision.cpp">
+      <Filter>Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Modifiers\SPK_Destroyer.cpp">
+      <Filter>Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Modifiers\SPK_LinearForce.cpp">
+      <Filter>Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Modifiers\SPK_ModifierGroup.cpp">
+      <Filter>Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Modifiers\SPK_Obstacle.cpp">
+      <Filter>Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Modifiers\SPK_PointMass.cpp">
+      <Filter>Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Modifiers\SPK_Vortex.cpp">
+      <Filter>Modifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Renderers\SPK_Oriented3DRendererInterface.cpp">
+      <Filter>Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Renderers\SPK_QuadRendererInterface.cpp">
+      <Filter>Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Zones\SPK_AABox.cpp">
+      <Filter>Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Zones\SPK_Cylinder.cpp">
+      <Filter>Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Zones\SPK_Line.cpp">
+      <Filter>Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Zones\SPK_Plane.cpp">
+      <Filter>Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Zones\SPK_Point.cpp">
+      <Filter>Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Zones\SPK_Ring.cpp">
+      <Filter>Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Zones\SPK_Sphere.cpp">
+      <Filter>Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Zones\SPK_ZoneIntersection.cpp">
+      <Filter>Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="Extensions\Zones\SPK_ZoneUnion.cpp">
+      <Filter>Zones</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\SPK_ArrayBuffer.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Buffer.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_BufferHandler.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_DEF.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Emitter.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Factory.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Group.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Interpolator.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Model.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Particle.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Modifier.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Pool.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_System.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Transformable.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Vector3D.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Registerable.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_RegWrapper.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Renderer.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\SPK_Zone.h">
+      <Filter>Core\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Emitters\SPK_NormalEmitter.h">
+      <Filter>Emitters\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Emitters\SPK_RandomEmitter.h">
+      <Filter>Emitters\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Emitters\SPK_SphericEmitter.h">
+      <Filter>Emitters\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Emitters\SPK_StaticEmitter.h">
+      <Filter>Emitters\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Emitters\SPK_StraightEmitter.h">
+      <Filter>Emitters\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Modifiers\SPK_Destroyer.h">
+      <Filter>Modifiers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Modifiers\SPK_LinearForce.h">
+      <Filter>Modifiers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Modifiers\SPK_ModifierGroup.h">
+      <Filter>Modifiers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Modifiers\SPK_Obstacle.h">
+      <Filter>Modifiers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Modifiers\SPK_PointMass.h">
+      <Filter>Modifiers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Modifiers\SPK_Rotator.h">
+      <Filter>Modifiers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Modifiers\SPK_Vortex.h">
+      <Filter>Modifiers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Modifiers\SPK_Collision.h">
+      <Filter>Modifiers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Renderers\SPK_LineRendererInterface.h">
+      <Filter>Renderers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Renderers\SPK_Oriented2DRendererInterface.h">
+      <Filter>Renderers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Renderers\SPK_Oriented3DRendererInterface.h">
+      <Filter>Renderers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Renderers\SPK_PointRendererInterface.h">
+      <Filter>Renderers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Renderers\SPK_QuadRendererInterface.h">
+      <Filter>Renderers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Zones\SPK_Ring.h">
+      <Filter>Zones\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Zones\SPK_Sphere.h">
+      <Filter>Zones\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Zones\SPK_ZoneIntersection.h">
+      <Filter>Zones\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Zones\SPK_ZoneUnion.h">
+      <Filter>Zones\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Zones\SPK_AABox.h">
+      <Filter>Zones\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Zones\SPK_Cylinder.h">
+      <Filter>Zones\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Zones\SPK_Line.h">
+      <Filter>Zones\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Zones\SPK_Plane.h">
+      <Filter>Zones\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Extensions\Zones\SPK_Point.h">
+      <Filter>Zones\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
